@@ -22,7 +22,7 @@ function currentLine (line) {
     for (let i = 0; i < line.length; i++) {
       if (i == line.length - 1) {
         string = string + " "+ (i + 1) + ". " + line[i];
-      else {
+      } else {
         string = string + " "+ (i + 1) + ". " + line[i] + ",";
       }
     }
